@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+env/
+venv/
+.your-doc-env/
+*.egg-info/
+pip-wheel-metadata/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local data/uploads (user files, PDFs etc.)
+data/uploads/
+
+# Logs and outputs
+*.log
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# pytest
+.cache/
+.pytest_cache/
+
+# Ignore SQLite or temporary DBs if used
+*.db
+*.sqlite3
